@@ -10,7 +10,8 @@ const router = createBrowserRouter([
         element:<Layout/>,
         children:[
             {
-                path:'/month',
+                // path:'/month',
+                index:true,
                 element:<Month/>
             },
             {
